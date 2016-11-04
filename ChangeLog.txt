@@ -1,0 +1,11 @@
+0.1.0:1
+-------
++Added support for JSON usage.
++Restructured resource handling to use JSON.
++Started development of map generation.
++Restructured the project towards a module system.
++Started Github Version Control system(https://github.com/dugging1/bc/).
+
++-Moved chunk template folder outside the texture folder.
+
+-Removed large amount of global variables(cleaned up namespace pollution).
