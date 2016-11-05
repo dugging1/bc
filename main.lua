@@ -5,7 +5,7 @@ local channel
 
 globalFlags = {}
 
-mods = {}
+local mods = {}
 
 function love.load()
 	cmd = love.thread.newThread("src/Cmd.lua")
@@ -14,13 +14,19 @@ function love.load()
 
     mods = getModules()
     for _,mod in pairs(mods) do --Start Pre-Initialisation
-        mod.preinit()
+        print("Starting Pre-Initialisation for: '"..mod[2].."'")
+        mod[1].preinit()
+        print("Completed Pre-Initialisation for: '"..mod[2].."'")
     end
     for _,mod in pairs(mods) do --Start Initialisation
-        mod.init()
+        print("Starting Initialisation for: '"..mod[2].."'")
+        mod[1].init()
+        print("Completed Initialisation for: '"..mod[2].."'")
     end
     for _,mod in pairs(mods) do --Start Post-Initialisation
-        mod.postinit()
+        print("Starting Post-Initialisation for: '"..mod[2].."'")
+        mod[1].postinit()
+        print("Completed Post-Initialisation for: '"..mod[2].."'")
     end
 
 	love.graphics.setBackgroundColor( 200, 200, 200 )
@@ -45,7 +51,7 @@ function getModules()
     end
     local ret = {}
     for _,mod in pairs(temp) do
-        table.insert(ret,require(mod.."main"))
+        table.insert(ret,{require(mod.."main", mod)})
     end
     return ret
 end
@@ -57,8 +63,8 @@ function Dev()
 	if c ~= nil then
         if c[1] == "Command" then
             for _,mod in pairs(mods) do
-                if mod.cmd ~= nil then
-                    if mod.cmd(c) then
+                if mod[1].cmd ~= nil then
+                    if mod[1].cmd(c) then
                         break
                     end
                 end
@@ -69,8 +75,8 @@ end
 
 function love.draw()
     for _,mod in pairs(mods) do
-        if mod.draw ~= nil then
-            mod.draw(displayIcons)
+        if mod[1].draw ~= nil then
+            mod[1].draw(displayIcons)
         end
     end
 end
@@ -78,24 +84,24 @@ end
 function love.update(dt)
 	Dev()
     for _,mod in pairs(mods) do
-        if mod.update ~= nil then
-            mod.update(dt)
+        if mod[1].update ~= nil then
+            mod[1].update(dt)
         end
     end
 end
 
 function love.keypressed(key)
     for _,mod in pairs(mods) do
-        if mod.keypressed ~= nil then
-            mod.keypressed(key)
+        if mod[1].keypressed ~= nil then
+            mod[1].keypressed(key)
         end
     end
 end
 
 function love.keyreleased(key)
     for _,mod in pairs(mods) do
-        if mod.keyreleased ~= nil then
-            mod.keyreleased(key)
+        if mod[1].keyreleased ~= nil then
+            mod[1].keyreleased(key)
         end
     end
 end
