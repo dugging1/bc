@@ -8,8 +8,6 @@ local Player
 local globalFlags = {}
 
 local function preInit()
-    print("Base module: Pre-Initialisation")
-
     initFolder("Modules/Base/Resources", resources)
     Player = require("Modules/Base/src/Player")
     globalFlags["MenuSwitch"] = true
@@ -17,10 +15,8 @@ local function preInit()
     Player.Char = resources["textures"]["Player"]
 end
 local function Init()
-    print("Base module: Initialisation")
 end
 local function postInit()
-    print("Base module: Post-Initialisation")
 end
 
 local function Update(dt)

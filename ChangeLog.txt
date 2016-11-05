@@ -1,8 +1,9 @@
 0.1.0:2
 -------
-+Finished Restructuring to module system
-   +Modding system implemented
-+Added abstract class(table) for entities
++Finished Restructuring to module system.
+   +Modding system implemented.
++Added abstract class(table) for entities.
++Added console landmarks for pre to post initialisation.
 
 0.1.0:1
 -------
