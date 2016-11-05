@@ -17,7 +17,7 @@ function initFolder(dir, resources)
                     end
                     for name,path in pairs(entry) do
                         if domain == "textures" or domain == "chunks" then
-                            resources[domain][name] = love.graphics.newImage(path)
+                            resources[domain][name] = love.graphics.newImage(dir.."/"..path)
                         else
                             resources[domain][name] = path
                         end
