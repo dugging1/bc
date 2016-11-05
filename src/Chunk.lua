@@ -66,6 +66,7 @@ function pickChunk(chunks, exits)
 	print_r(candidates)
 	return candidates[math.random(table.maxn(candidates))]
 end
+
 function getESides(chunk)
 	local ret = {}
 	for n,v in pairs(chunk.Exits) do

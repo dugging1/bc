@@ -52,30 +52,6 @@ function Gen_Event_Handler(Gen_Event, Gen_Input1, Gen_Input2, Gen_Input3, Gen_In
 	end
 end
 
-function StartUp()
-	print("Starting Game")
-	print("")
-	testMap()
-end
-
-function Misc_()
-	--makeEnd testing
-	local chunkSet = require("src/Chunkinnit").chunkInit()
-	--table.insert(chunkSet, Chunk.new(5,5,{{false,false,false,false,false},{false,false,false,false,false},{false,false,true,false,false},{false,false,false,false,false}},"Chunks/End/SEndA1","Tile",0,0))
-	--table.insert(chunkSet, Chunk.new(5,5,{{false,false,true,false,false},{false,false,false,false,false},{false,false,false,false,false},{false,false,false,false,false}},"Chunks/End/NEndA1","Tile",0,0))
-	--table.insert(chunkSet, Chunk.new(5,5,{{false,true,true,false,false},{false,false,false,false,false},{false,false,false,false,false},{false,false,false,false,false}},"Chunks/End/NEndA2","Tile",0,0))
-	--table.insert(chunkSet, Chunk.new(5,5,{{false,false,false,false,false},{false,false,false,false,false},{false,false,false,false,false},{false,false,true,false,false}},"Chunks/End/WEndA1","Tile",0,0))
-	--table.insert(chunkSet, Chunk.new(5,5,{{false,false,false,false,false},{false,false,true,false,false},{false,false,false,false,false},{false,false,false,false,false}},"Chunks/End/EEndA1","Tile",0,0))
-	--table.insert(chunkSet, Chunk.new(5,5,{{false,false,true,false,false},{false,false,false,false,false},{false,false,false,false,false},{false,false,true,false,false}},"Chunks/Curve/NWCurveA1","Tile",0,0))
-	--table.insert(chunkSet, Chunk.new(5,5,{{false,false,true,false,false},{false,false,false,false,false},{false,false,false,false,false},{false,false,true,false,false}},"Chunks/Curve/NWCurveA1","Tile",0,0))
-	--table.insert(chunkSet, Chunk.new(5,5,{{false,false,false,false,false},{false,false,false,false,false},{false,false,true,false,false},{false,false,true,false,false}},"Chunks/Curve/SWCurveA1","Tile",0,0))
-	--table.insert(chunkSet, Chunk.new(5,5,{{false,false,true,false,false},{false,false,true,false,false},{false,false,true,false,false},{false,false,true,false,false}},"Chunks/Plus/NESWPlusA1","Tile",0,0))
-	
-	local side = {3, {{false,false,true,false,false},{false,false,false,false,false},{false,false,true,false,false},{false,false,true,false,false}}}
-	
-	print_r(makeEnd(chunkSet,side))
-end
-
 function EventCp1Ripple(col,x,y,offs)
 	if not displayIcons[x+offs[1]] then
 		displayIcons[x+offs[1]] = {}
@@ -83,10 +59,9 @@ function EventCp1Ripple(col,x,y,offs)
 	displayIcons[x][y+offs[2]] = col
 end
 
-function Gen(name, Type, offsX, offsY)
+function Gen(name, Type, offsX, offsY, resources)
 	offsX = offsX or 0
 	offsY = offsY or 0
-	print(name)
 	local Test_Template_Loaded
 	if love.filesystem.isFile("/customChunks/"..name..".png") then
 		Test_Template_Loaded = love.graphics.newImage("/customChunks/"..name..".png")

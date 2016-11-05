@@ -1,3 +1,9 @@
+0.1.0:2
+-------
++Finished Restructuring to module system
+   +Modding system implemented
++Added abstract class(table) for entities
+
 0.1.0:1
 -------
 +Added support for JSON usage.

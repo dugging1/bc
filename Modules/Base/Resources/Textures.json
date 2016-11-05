@@ -1,0 +1,36 @@
+{
+  "textures":{
+	"Player":"textures/Entities/Player.png",
+	
+    "Genon": "textures/GUI/Menu/Button On.png",
+	"Genoff":"textures/GUI/Menu/Button off.png",
+	
+	"GUIHead":"textures/GUI/Head.png",
+	
+	"Tred" : "textures/Tiles/redTile.png",
+	"Tgreen" : "textures/Tiles/greenTile.png",
+	"Tblue" : "textures/Tiles/blueTile.png",
+	"Tblack" : "textures/Tiles/blackTile.png",
+	"Twhite" : "textures/Tiles/whiteTile.png",
+	"Tcyan" : "textures/Tiles/cyanTile.png"
+  },
+	"chunks":{
+		"ESCurveA1":"Chunks/Curve/ESCurveA1.png",
+		"EWCurveA1":"Chunks/Curve/EWCurveA1.png",
+		"NECurveA1":"Chunks/Curve/NECurveA1.png",
+		"NSCurveA1":"Chunks/Curve/NSCurveA1.png",
+		"NWCurveA1":"Chunks/Curve/NWCurveA1.png",
+		"SWCurveA1":"Chunks/Curve/SWCurveA1.png",
+
+		"EEndA1":"Chunks/End/EEndA1.png",
+		"NEndA1":"Chunks/End/NEndA1.png",
+		"NEndA2":"Chunks/End/NEndA2.png",
+		"SEndA1":"Chunks/End/SEndA1.png",
+		"WEndA1":"Chunks/End/WEndA1.png",
+
+		"ESWPlusA1":"Chunks/Plus/ESWPlusA1.png",
+		"NESPlusA1":"Chunks/Plus/NESPlusA1.png",
+		"NESWPlusA1":"Chunks/Plus/NESWPlusA1.png",
+		"NEWPlusA1":"Chunks/Plus/NEWPlusA1.png"
+	}
+}
