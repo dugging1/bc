@@ -1,18 +1,18 @@
 {
   "textures":{
-	"Player":"textures/Entities/Player.png",
+	"Player":"Textures/Entities/Player.png",
 	
-    "Genon": "textures/GUI/Menu/Button On.png",
-	"Genoff":"textures/GUI/Menu/Button off.png",
+    "Genon": "Textures/GUI/Menu/Button On.png",
+	"Genoff":"Textures/GUI/Menu/Button off.png",
 	
-	"GUIHead":"textures/GUI/Head.png",
+	"GUIHead":"Textures/GUI/Head.png",
 	
-	"Tred" : "textures/Tiles/redTile.png",
-	"Tgreen" : "textures/Tiles/greenTile.png",
-	"Tblue" : "textures/Tiles/blueTile.png",
-	"Tblack" : "textures/Tiles/blackTile.png",
-	"Twhite" : "textures/Tiles/whiteTile.png",
-	"Tcyan" : "textures/Tiles/cyanTile.png"
+	"Tred" : "Textures/Tiles/redTile.png",
+	"Tgreen" : "Textures/Tiles/greenTile.png",
+	"Tblue" : "Textures/Tiles/blueTile.png",
+	"Tblack" : "Textures/Tiles/blackTile.png",
+	"Twhite" : "Textures/Tiles/whiteTile.png",
+	"Tcyan" : "Textures/Tiles/cyanTile.png"
   },
 	"chunks":{
 		"ESCurveA1":"Chunks/Curve/ESCurveA1.png",

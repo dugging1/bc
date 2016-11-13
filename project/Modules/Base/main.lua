@@ -1,6 +1,7 @@
 local modulePath = "Modules/Base/"
 
 require("Lib/ResourceInit")
+require("src/Draw")
 require(modulePath.."src/cmd")
 
 local resources = {}
@@ -20,6 +21,9 @@ local function postInit()
 end
 
 local function Update(dt)
+    local windowMode = {}
+    windowMode.x, windowMode.y, windowMode.flags = love.window.getMode()
+
     if Player.Wtrue == true then
         Player.Ypos = Player.Ypos - 300*dt
     end
@@ -34,13 +38,14 @@ local function Update(dt)
     end
 
 
-    local Mx = love.mouse.getX()
-    local My = love.mouse.getY()
+    local Mx,My = Player.cam.getMouse()
 
     function math.getAngle(x1,y1, x2,y2) return math.atan2((y2-y1),(x2-x1)) end
-    Player.Rot = math.getAngle(Player.Xpos,Player.Ypos,Mx,My)+math.pi/2
+    Player.Rot = math.getAngle(Player.Xpos+windowMode.x/2,Player.Ypos+windowMode.y/2,Mx,My)+math.pi/2
 end
 local function Draw(displayIcons)
+    Player.cam.push()
+    Player.cam.follow(Player)
     -- IN MENU
     if globalFlags["MenuSwitch"] == true then
     end
@@ -50,7 +55,7 @@ local function Draw(displayIcons)
     end
     if GTTrue == true then
         local trans = {{"BK",resources["textures"]["Tblack"]},{"WW",resources["textures"]["Twhite"]},{"RR",resources["textures"]["Tred"]},
-            {"GG",resources["textures"]["Tgreen"]},{"BB",resources["textures"]["Tblue"]},{"CY",resources["textures"]["Tcyan"]}}
+            {"GG",resources["textures"]["Tgreen"]},{"BB",resources["textures"]["Tblue"]},{"CY",resources["textures"]["Tcyan"]} }
         for x=0,table.maxn(displayIcons) do
             for y=0,table.maxn(displayIcons[x]) do
                 local temp
@@ -67,12 +72,13 @@ local function Draw(displayIcons)
                     i=i+1
                 end
                 if temp ~= nil then
-                    love.graphics.draw(temp, x*temp:getWidth(), y*temp:getHeight())
+                    drawScaled(temp, x*temp:getWidth(), y*temp:getHeight())
                 end
             end
         end
     end
-    love.graphics.draw(Player.Char,Player.Xpos,Player.Ypos,Player.Rot,1,1,(40/2),(20/2))
+    drawScaled(Player.Char,Player.Xpos,Player.Ypos,Player.Rot,1,1,(40/2),(20/2))
+    Player.cam.pop()
 end
 
 local function cmd(command)

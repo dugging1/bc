@@ -10,7 +10,7 @@ function run(channel)
 			for word in inp:gmatch("%S+") do table.insert(words, word) end
 			channel:push(words)
 		elseif inp == "/Start up" then
-			channel:push({"Command", "StartUo"})
+			channel:push({"Command", "StartUp"})
 		elseif inp:sub(1,9) == "/Gen Tmpl" then
 			local send = {"Command", "GenTmpl"}
 			local t = inp:sub(11)

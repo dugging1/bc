@@ -1,3 +1,10 @@
+0.1.0:3
+-------
++Added auto-build script to compile project to .exe
++Added Camera class.
++Added CameraController class to handle switching cameras and creating new cameras.
++Added Draw class to handle drawing of objects to account for scaling with camera.
+
 0.1.0:2
 -------
 +Finished Restructuring to module system.

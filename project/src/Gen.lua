@@ -60,6 +60,7 @@ function EventCp1Ripple(col,x,y,offs)
 end
 
 function Gen(name, Type, offsX, offsY, resources)
+	--print_r(resources)
 	offsX = offsX or 0
 	offsY = offsY or 0
 	local Test_Template_Loaded

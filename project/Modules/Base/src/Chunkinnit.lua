@@ -15,7 +15,7 @@ local function chunkInnit()
 	table.insert(ret, Chunk.new(5,5,{{false,false,true,false,false},{false,false,true,false,false},{false,false,true,false,false},{false,false,false,false,false}},"NESPlusA1","Tile",0,0))
 	table.insert(ret, Chunk.new(5,5,{{false,false,true,false,false},{false,false,true,false,false},{false,false,false,false,false},{false,false,true,false,false}},"NEWPlusA1","Tile",0,0))
 	table.insert(ret, Chunk.new(5,5,{{false,false,false,false,false},{false,false,true,false,false},{false,false,true,false,false},{false,false,true,false,false}},"ESWPlusA1","Tile",0,0))
-	--table.insert(chunkSet, Chunk.new(5,5,{{,,,,},{,,,,},{,,,,},{,,,,}},"Chunks/Plus/","Tile",0,0))
+	--table.insert(ret, Chunk.new(5,5,{{,,,,},{,,,,},{,,,,},{,,,,}},"Chunks/Plus/","Tile",0,0))
 	--End:
 	table.insert(ret, Chunk.new(5,5,{{false,false,true,false,false},{false,false,false,false,false},{false,false,false,false,false},{false,false,false,false,false}},"NEndA1","Tile",0,0))
 	table.insert(ret, Chunk.new(5,5,{{false,true,true,false,false},{false,false,false,false,false},{false,false,false,false,false},{false,false,false,false,false}},"NEndA2","Tile",0,0))
