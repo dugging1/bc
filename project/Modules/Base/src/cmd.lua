@@ -1,6 +1,7 @@
 local modulePath = "Modules/Base/"
 
 require(modulePath.."src/GenTile")
+require("src/GenMap")
 
 local function devHelp()
     io.write("Commands:\n")
@@ -8,6 +9,10 @@ local function devHelp()
     io.write("| '/Gen Test' - Tests the gen sys\n")
     io.write("| '/Exit' - Closes the dev console\n")
     io.write("|_________________________________|\n")
+end
+
+local function StartUp(res)
+    testMap(res)
 end
 
 function resolveCommand(command, resources)
@@ -23,7 +28,7 @@ function resolveCommand(command, resources)
             table.insert(data, resources)
             Gen(unpack(data))
         end,
-        StartUp=function() StartUp() end,
+        StartUp=function() StartUp(resources) end,
         GenTmpl=function(data) createTile(unpack(data)) end}
 
     local t = coms[command[2]]

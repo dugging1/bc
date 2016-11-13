@@ -16,17 +16,17 @@ function love.load()
     for _,mod in pairs(mods) do --Start Pre-Initialisation
         print("Starting Pre-Initialisation for: '"..mod[2].."'")
         mod[1].preinit()
-        print("Completed Pre-Initialisation for: '"..mod[2].."'")
+        print("Completed Pre-Initialisation for: '"..mod[2].."'\n\n")
     end
     for _,mod in pairs(mods) do --Start Initialisation
         print("Starting Initialisation for: '"..mod[2].."'")
         mod[1].init()
-        print("Completed Initialisation for: '"..mod[2].."'")
+        print("Completed Initialisation for: '"..mod[2].."'\n\n")
     end
     for _,mod in pairs(mods) do --Start Post-Initialisation
         print("Starting Post-Initialisation for: '"..mod[2].."'")
         mod[1].postinit()
-        print("Completed Post-Initialisation for: '"..mod[2].."'")
+        print("Completed Post-Initialisation for: '"..mod[2].."'\n\n")
     end
 
 	love.graphics.setBackgroundColor( 200, 200, 200 )
@@ -35,11 +35,8 @@ end
 function getModules()
     local temp = {}
     for _,dir in pairs(love.filesystem.getDirectoryItems("/Modules")) do --For files in Module
-        print(dir)
         if love.filesystem.isDirectory("/Modules/"..dir) then --If it is a folder
-            print("Is Dir")
             for _,item in pairs(love.filesystem.getDirectoryItems("/Modules/"..dir)) do --Get all items in folder
-                print(item)
                 if love.filesystem.isFile("/Modules/"..dir.."/"..item) then --If it is a file
                     if tostring(item) == "main.lua" then
                         table.insert(temp, "/Modules/"..dir.."/") --Folder is a module
@@ -51,7 +48,7 @@ function getModules()
     end
     local ret = {}
     for _,mod in pairs(temp) do
-        table.insert(ret,{require(mod.."main", mod)})
+        table.insert(ret,{require(mod.."main"), mod})
     end
     return ret
 end
