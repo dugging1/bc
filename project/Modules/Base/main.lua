@@ -1,7 +1,7 @@
 local modulePath = "Modules/Base/"
 
 require("Lib/ResourceInit")
-require("src/Draw")
+require("src/System/Draw")
 require(modulePath.."src/cmd")
 
 local resources = {}
@@ -10,7 +10,7 @@ local globalFlags = {}
 
 local function preInit()
     initFolder("Modules/Base/Resources", resources)
-    Player = require("Modules/Base/src/Player")
+    Player = require(modulePath.."src/prototypes/entities/Player")
     globalFlags["MenuSwitch"] = true
 
     Player.Char = resources["textures"]["Player"]
@@ -22,7 +22,7 @@ end
 
 local function Update(dt)
     local windowMode = {}
-    windowMode.x, windowMode.y, windowMode.flags = love.window.getMode()
+    windowMode.x, windowMode.y = love.window.getMode()
 
     if Player.Wtrue == true then
         Player.Ypos = Player.Ypos - 300*dt
