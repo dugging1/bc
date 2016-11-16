@@ -1,7 +1,7 @@
 local modulePath = "Modules/Base/"
 
 require(modulePath.."src/GenTile")
-require("src/GenMap")
+require("src/Generation/GenMap")
 
 local function devHelp()
     io.write("Commands:\n")

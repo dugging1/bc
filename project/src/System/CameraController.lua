@@ -1,14 +1,14 @@
 function newCamera(active, focus)
-    local cam = require("src/Camera")
+    local cam = require("src/System/Camera")
     cam.ACTIVE = active
     if focus == true then
-        require("src/Draw")
+        require("src/System/Draw")
         currentCamera = cam
     end
     return cam
 end
 
 function setFocus(cam)
-    require("src/Draw")
+    require("src/System/Draw")
     currentCamera = cam
 end

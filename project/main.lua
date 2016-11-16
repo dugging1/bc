@@ -1,4 +1,4 @@
-require("src/Gen")
+require("src/Generation/Gen")
 
 local cmd
 local channel
@@ -8,7 +8,7 @@ globalFlags = {}
 local mods = {}
 
 function love.load()
-	cmd = love.thread.newThread("src/Cmd.lua")
+	cmd = love.thread.newThread("src/System/Cmd.lua")
 	channel = love.thread.getChannel("Command")
 	cmd:start()
 

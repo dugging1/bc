@@ -7,7 +7,7 @@
 --[Started 9/2/16]  
 --[Concept 10/27/16]
 --[Working 10/28/16]
-require("src/GenMap")
+require("src/Generation/GenMap")
 
 displayIcons = {}
 
