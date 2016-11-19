@@ -1,4 +1,4 @@
-require("src/Chunk")
+require("src/Generation/Chunk")
 local function chunkInnit()
 	local ret = {}
 	--Template:table.insert(ret, Chunk.new(5,5,{{,,,,},{,,,,},{,,,,},{,,,,}},name,"Tile",0,0))

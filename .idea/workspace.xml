@@ -1,334 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6a10c71-e49e-41a8-8e5d-6a00bcc4dfdd" name="Default" comment="Version 0.1.0:3">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/OpenAL32.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/SDL2.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bc.love" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/love.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/love.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lua51.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/mpg123.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/msvcp120.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/msvcr120.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/OpenAL32.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/SDL2.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/bc.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/love.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/lua51.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/mpg123.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/msvcp120.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/msvcr120.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/Curve/ESCurveA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/Curve/EWCurveA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/Curve/NECurveA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/Curve/NSCurveA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/Curve/NWCurveA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/Curve/SWCurveA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/End/EEndA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/End/NEndA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/End/NEndA2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/End/SEndA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/End/WEndA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/Plus/ESWPlusA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/Plus/NESPlusA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/Plus/NESWPlusA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Chunks/Plus/NEWPlusA1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures/Entities/Player.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures/GUI/Head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures/GUI/Menu/Button On.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures/GUI/Menu/Button off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures/Tiles/blackTile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures/Tiles/blueTile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures/Tiles/cyanTile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures/Tiles/greenTile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures/Tiles/redTile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures/Tiles/whiteTile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/Particle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path CDL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path CDR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path CUL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path CUR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path LH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path LV.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path MD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path ML.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path MR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path MU.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Paths/Path OC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Rooms/BRoom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Rooms/CRoom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Rooms/RDown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Rooms/RLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Rooms/RRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Rooms/RUp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Templates/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Templates/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Templates/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Templates/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Templates/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Templates/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Templates/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/raw parts/Templates/B.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/resources/textures/sys/Icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ChangeLog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/HC-0.1-1.rockspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/class.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/Class.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/MainModule.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/Polygon.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/Shapes.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/SpatialHash.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/Vector.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/conf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/license.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/reference.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/docs/tutorial.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/gjk.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/init.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/polygon.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/shapes.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/spatialhash.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/HC/vector-light.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/ResourceInit.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/Useful.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/json.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/anim8.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/body.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/init.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/light.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/normal_map.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/postshader.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/glow.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/image_mask.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/material.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/black_and_white.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/blurh.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/blurv.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/chromatic_aberration.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/contrast.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/curvature.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/edges.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/four_colors.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/hdr_tv.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/monochrome.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/phosphor.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/phosphorish.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/pip.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/pixellate.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/radialblur.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/scanlines.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/tilt_shift.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/postshaders/waterpaint.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/reflection.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/refraction.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/shaders/shadow.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/util.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/lib_Light/vector.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/body.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/functions.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/init.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/light.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/postshader.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/room.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/blurh.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/blurv.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/chromatic_aberration.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/contrast.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/four_colors.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/glow.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/material.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/monochrom.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/normal.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/normal_invert.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/poly_shadow.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/reflection.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/refraction.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/scanlines.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shader/tilt_shift.glsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shadowtype/circle.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shadowtype/polygon.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/shadowtype/rectangle.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Lib/livsh/world.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Meta.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/Resources/Textures.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/main.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/src/Chunkinnit.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/src/GenTile.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/src/Player.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/src/cmd.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/conf.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/main.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/CameraController.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/Chunk.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/Cmd.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/Collision.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/Draw.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/Entity.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/Gen.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/GenMap.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/camera.lua" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ChangeLog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/HC-0.1-1.rockspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/class.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/Class.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/MainModule.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/Polygon.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/Shapes.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/SpatialHash.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/Vector.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/conf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/license.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/reference.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/docs/tutorial.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/gjk.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/init.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/polygon.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/shapes.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/spatialhash.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/HC/vector-light.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/ResourceInit.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/Useful.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/json.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/anim8.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/body.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/init.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/light.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/normal_map.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/postshader.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/glow.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/image_mask.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/material.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/black_and_white.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/blurh.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/blurv.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/chromatic_aberration.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/contrast.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/curvature.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/edges.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/four_colors.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/hdr_tv.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/monochrome.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/phosphor.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/phosphorish.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/pip.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/pixellate.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/radialblur.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/scanlines.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/tilt_shift.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/postshaders/waterpaint.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/reflection.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/refraction.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/shaders/shadow.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/util.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/lib_Light/vector.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/body.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/functions.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/init.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/light.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/postshader.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/room.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/blurh.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/blurv.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/chromatic_aberration.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/contrast.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/four_colors.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/glow.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/material.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/monochrom.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/normal.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/normal_invert.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/poly_shadow.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/reflection.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/refraction.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/scanlines.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shader/tilt_shift.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shadowtype/circle.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shadowtype/polygon.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/shadowtype/rectangle.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/livsh/world.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Meta.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/Curve/ESCurveA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/Curve/EWCurveA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/Curve/NECurveA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/Curve/NSCurveA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/Curve/NWCurveA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/Curve/SWCurveA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/End/EEndA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/End/NEndA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/End/NEndA2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/End/SEndA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/End/WEndA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/Plus/ESWPlusA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/Plus/NESPlusA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/Plus/NESWPlusA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Chunks/Plus/NEWPlusA1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures/Entities/Player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures/GUI/Head.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures/GUI/Menu/Button On.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures/GUI/Menu/Button off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures/Tiles/blackTile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures/Tiles/blueTile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures/Tiles/cyanTile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures/Tiles/greenTile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures/Tiles/redTile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/Resources/Textures/Tiles/whiteTile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/main.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/src/Chunkinnit.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/src/GenTile.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/src/Player.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Base/src/cmd.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/conf.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/Particle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path CDL.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path CDR.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path CUL.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path CUR.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path LH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path LV.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path MD.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path ML.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path MR.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path MU.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Paths/Path OC.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Rooms/BRoom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Rooms/CRoom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Rooms/RDown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Rooms/RLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Rooms/RRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Rooms/RUp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Templates/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Templates/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Templates/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Templates/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Templates/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Templates/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Templates/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/raw parts/Templates/B.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/textures/sys/Icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Chunk.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Cmd.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collision.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Entity.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Gen.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GenMap.lua" afterPath="" />
+    <list default="true" id="c6a10c71-e49e-41a8-8e5d-6a00bcc4dfdd" name="Default" comment="Version 0.1.0:4">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Modules/Base/src/prototypes/Entities/Player.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/Prototypes/Attack.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/Prototypes/Item.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/src/Prototypes/Stats.lua" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Modules/Base/src/Player.lua" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/src/CameraController.lua" afterPath="$PROJECT_DIR$/project/src/System/CameraController.lua" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/src/Chunk.lua" afterPath="$PROJECT_DIR$/project/src/Generation/Chunk.lua" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/src/Cmd.lua" afterPath="$PROJECT_DIR$/project/src/System/Cmd.lua" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/src/Collision.lua" afterPath="$PROJECT_DIR$/project/src/System/Collision.lua" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/src/Draw.lua" afterPath="$PROJECT_DIR$/project/src/System/Draw.lua" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/src/Entity.lua" afterPath="$PROJECT_DIR$/project/src/Prototypes/Entity.lua" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/src/Gen.lua" afterPath="$PROJECT_DIR$/project/src/Generation/Gen.lua" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/src/GenMap.lua" afterPath="$PROJECT_DIR$/project/src/Generation/GenMap.lua" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/src/camera.lua" afterPath="$PROJECT_DIR$/project/src/System/camera.lua" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bc.iml" afterPath="$PROJECT_DIR$/.idea/bc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/ChangeLog.txt" afterPath="$PROJECT_DIR$/project/ChangeLog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Meta.json" afterPath="$PROJECT_DIR$/project/Meta.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Modules/Base/main.lua" afterPath="$PROJECT_DIR$/project/Modules/Base/main.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Modules/Base/src/Chunkinnit.lua" afterPath="$PROJECT_DIR$/project/Modules/Base/src/Chunkinnit.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Modules/Base/src/cmd.lua" afterPath="$PROJECT_DIR$/project/Modules/Base/src/cmd.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/main.lua" afterPath="$PROJECT_DIR$/project/main.lua" />
     </list>
     <ignored path="bc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -348,79 +43,12 @@
     <favorites_list name="bc" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Camera.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Camera.lua">
+    <leaf>
+      <file leaf-file-name="Meta.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/Meta.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/Modules/Base/main.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-              <folding>
-                <element signature="n#preInit#0" expanded="false" />
-                <element signature="n#Init#0" expanded="false" />
-                <element signature="n#postInit#0" expanded="false" />
-                <element signature="n#cmd#0" expanded="false" />
-                <element signature="n#keyPressed#0" expanded="false" />
-                <element signature="n#keyReleased#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Draw.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Draw.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CameraController.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/CameraController.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Entity.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Entity.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/Modules/Base/src/Player.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangeLog.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/ChangeLog.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+            <state relative-caret-position="17">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -438,7 +66,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="MapCreation" />
+        <entry key="$PROJECT_DIR$" value="Camera" />
       </map>
     </option>
   </component>
@@ -456,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/play.bat" />
         <option value="$PROJECT_DIR$/GenMap.lua" />
         <option value="$PROJECT_DIR$/json.lua" />
         <option value="$PROJECT_DIR$/test.json" />
@@ -484,17 +111,30 @@
         <option value="$PROJECT_DIR$/Modules/Base/src/Chunkinnit.lua" />
         <option value="$PROJECT_DIR$/src/GenMap.lua" />
         <option value="$PROJECT_DIR$/src/Chunk.lua" />
-        <option value="$PROJECT_DIR$/project/Meta.json" />
         <option value="$PROJECT_DIR$/compile.py" />
         <option value="$PROJECT_DIR$/project/src/camera.lua" />
-        <option value="$PROJECT_DIR$/project/main.lua" />
         <option value="$PROJECT_DIR$/project/src/Entity.lua" />
         <option value="$PROJECT_DIR$/project/src/CameraController.lua" />
-        <option value="$PROJECT_DIR$/project/ChangeLog.txt" />
-        <option value="$PROJECT_DIR$/project/Modules/Base/src/Player.lua" />
         <option value="$PROJECT_DIR$/project/src/Draw.lua" />
-        <option value="$PROJECT_DIR$/project/Modules/Base/main.lua" />
         <option value="$PROJECT_DIR$/project/src/Camera.lua" />
+        <option value="$PROJECT_DIR$/project/src/Stats.lua" />
+        <option value="$PROJECT_DIR$/project/src/Item.lua" />
+        <option value="$PROJECT_DIR$/project/src/Attack.lua" />
+        <option value="$PROJECT_DIR$/project/src/Generation/Gen.lua" />
+        <option value="$PROJECT_DIR$/project/src/Prototypes/Attack.lua" />
+        <option value="$PROJECT_DIR$/project/src/Prototypes/Item.lua" />
+        <option value="$PROJECT_DIR$/project/src/System/CameraController.lua" />
+        <option value="$PROJECT_DIR$/project/main.lua" />
+        <option value="$PROJECT_DIR$/project/Modules/Base/src/Player.lua" />
+        <option value="$PROJECT_DIR$/project/Modules/Base/src/cmd.lua" />
+        <option value="$PROJECT_DIR$/project/Modules/Base/src/Chunkinnit.lua" />
+        <option value="$PROJECT_DIR$/project/Modules/Base/main.lua" />
+        <option value="$PROJECT_DIR$/project/ChangeLog.txt" />
+        <option value="$PROJECT_DIR$/project/src/Generation/Chunk.lua" />
+        <option value="$PROJECT_DIR$/project/Modules/Base/src/prototypes/entities/Player.lua" />
+        <option value="$PROJECT_DIR$/project/Lib/json.lua" />
+        <option value="$PROJECT_DIR$/project/src/Generation/GenMap.lua" />
+        <option value="$PROJECT_DIR$/project/Meta.json" />
       </list>
     </option>
   </component>
@@ -552,8 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -618,6 +256,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -652,13 +312,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototypes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -687,11 +397,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dugging\Desktop\bc\project\Modules\Base\src\prototypes\Entities" />
+      <recent name="C:\Users\dugging\Desktop\bc\project\src\Generation" />
+      <recent name="C:\Users\dugging\Desktop\bc\project\src\Prototypes" />
+      <recent name="C:\Users\dugging\Desktop\bc\project\src\System" />
       <recent name="C:\Users\dugging\Desktop\bc\Lib" />
-      <recent name="C:\Users\dugging\Desktop\bc\Modules\Base\Resources\Textures\GUI" />
-      <recent name="C:\Users\dugging\Desktop\bc\Modules\Base\Resources\Textures\Entities" />
-      <recent name="C:\Users\dugging\Desktop\bc\Modules\Base\Resources\Textures\Tiles" />
-      <recent name="C:\Users\dugging\Desktop\bc\Modules\Base\Resources" />
     </key>
   </component>
   <component name="RunManager" selected="Lua Script.Run">
@@ -1232,7 +942,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995943" sideWeight="0.50296175" order="7" side_tool="true" content_ui="tabs" />
@@ -1254,6 +963,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995943" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1273,11 +983,12 @@
     <MESSAGE value="Version 0.1.0:1" />
     <MESSAGE value="Version 0.1.0:2" />
     <MESSAGE value="Version 0.1.0:3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.1.0:3" />
+    <MESSAGE value="Version 0.1.0:4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.1.0:4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1286,17 +997,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Modules/Base/src/Chunkinnit.lua" />
-    <entry file="file://$PROJECT_DIR$/ChangeLog.txt" />
-    <entry file="file://$PROJECT_DIR$/main.lua" />
-    <entry file="file://$PROJECT_DIR$/Lib/ResourceInit.lua" />
-    <entry file="file://$PROJECT_DIR$/Modules/Base/Resources/Textures.json" />
-    <entry file="file://$PROJECT_DIR$/src/Gen.lua" />
-    <entry file="file://$PROJECT_DIR$/src/Chunk.lua" />
-    <entry file="file://$PROJECT_DIR$/src/GenMap.lua" />
-    <entry file="file://$PROJECT_DIR$/main.lua" />
-    <entry file="file://$PROJECT_DIR$/Modules/Base/Resources/Textures.json" />
-    <entry file="file://$PROJECT_DIR$/src/Gen.lua" />
     <entry file="file://$PROJECT_DIR$/src/GenMap.lua" />
     <entry file="file://$PROJECT_DIR$/play.bat" />
     <entry file="file://$PROJECT_DIR$/json help.md" />
@@ -1321,13 +1021,6 @@
     <entry file="file://$PROJECT_DIR$/src/Chunk.lua" />
     <entry file="file://$PROJECT_DIR$/main.lua" />
     <entry file="file://$PROJECT_DIR$/src/GenMap.lua" />
-    <entry file="file://$PROJECT_DIR$/project/Meta.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/Lib/ResourceInit.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1340,21 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/Modules/Base/src/cmd.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#devHelp#0" expanded="false" />
-            <element signature="n#StartUp#0" expanded="false" />
-            <element signature="n#resolveCommand#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1362,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1370,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1378,7 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,27 +1061,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-406">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/main.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/Modules/Base/src/Player.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Entity.lua">
+    <entry file="file://$PROJECT_DIR$/project/src/Prototypes/Entity.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
@@ -1414,7 +1072,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Draw.lua">
+    <entry file="file://$PROJECT_DIR$/project/src/Generation/Gen.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Prototypes/Attack.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Prototypes/Item.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Prototypes/Stats.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/System/camera.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/System/CameraController.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/System/Cmd.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/System/Collision.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/System/Draw.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
@@ -1422,20 +1144,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/CameraController.lua">
+    <entry file="file://$PROJECT_DIR$/project/main.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Modules/Base/src/GenTile.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Modules/Base/src/Chunkinnit.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/ChangeLog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Modules/Base/src/prototypes/entities/Player.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/Modules/Base/main.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding>
-            <element signature="n#preInit#0" expanded="false" />
             <element signature="n#Init#0" expanded="false" />
             <element signature="n#postInit#0" expanded="false" />
             <element signature="n#cmd#0" expanded="false" />
@@ -1445,18 +1198,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Camera.lua">
+    <entry file="file://$PROJECT_DIR$/project/Lib/json.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="457">
+          <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/ChangeLog.txt">
+    <entry file="file://$PROJECT_DIR$/project/src/Generation/GenMap.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+        <state relative-caret-position="495">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Modules/Base/src/cmd.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="n#devHelp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Generation/Chunk.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Meta.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding />
         </state>
       </provider>

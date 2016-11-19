@@ -1,3 +1,7 @@
+0.1.0:4
+-------
++Added abstract item, stat and attack classes
+
 0.1.0:3
 -------
 +Added auto-build script to compile project to .exe
